@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px;
+  }
+  
+  body {
+    font-family: 'Courier';
+    }
+  
+  .contenedor{
+    padding: 5% 0;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+  }
+  .titulo{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px; ;
+  }
+  /* Header */
+  
+  header{
+    width: 1000%px;
+    height: 150px;
+    background:hsl(214, 71%, 81%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  nav{
+    text-align:end;
+    padding: 55px 70px 0 0;
+  }
+  
+  nav > a{
+    color:rgb(5, 5, 5);
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  nav > a:hover{
+    text-decoration: underline;
+  }
+  .contenedor-sobre-nosotros{
+    display: inline;
+    justify-content:space-around;
+    text-align: center;
+  }
+  .imagen-about-us{
+    width: 1000%px;
+    padding: 20px; 
+    border: 1px solid rgb(7, 7, 7); 
+    background-color: rgb(253, 253, 253);
+    
+  }
+  footer{
+    background:hsl(214, 71%, 81%);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+  }
+  .contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #070707;
+    border-bottom: 1px solid #fdfbfb;
+  }
+  .contenedor-footer h4{
+    color: rgb(8, 8, 8);
+    border-bottom: 3px solid;
+  
+  }
+  .contenedor-footer h4{
+    color: rgb(7, 7, 7);
+    border-bottom: 3px solid;
+  
+  }
